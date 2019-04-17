@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    .menu
+      a(href='/about',class='btn btn-success') О нас
+      a(href='/contact',class='btn btn-success') Контакты
+    block content
